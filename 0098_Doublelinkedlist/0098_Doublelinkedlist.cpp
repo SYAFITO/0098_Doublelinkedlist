@@ -69,7 +69,10 @@ bool search(int rollNo, Node** previous, Node** current)
 		*current = (*current)->next;
 
 	}
+	return (*current != NULL)
 }
+
+void deletenode()
 
 
 
