@@ -206,6 +206,9 @@ int main()
 			case '2':
 				addnode();
 				break;
+			case '3':
+				traverse();
+				break;
 			}
 		}
 	}
